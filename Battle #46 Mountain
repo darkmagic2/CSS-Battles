@@ -1,0 +1,34 @@
+<div class="div1"><div class="div2"><h1></h1></div></div>
+<style>
+  body{
+    background: #293462;
+  }
+  .div1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: #FFF1C1;
+    overflow: hidden;
+	left: 100px;
+	top: 50px; 
+    position: absolute;
+  }
+  .div2 {
+    width: 50px;
+    height: 50px;
+    background: #FE5F55;
+    margin-top: 140px;
+    margin-left: 7px;
+    transform: rotate(45deg);
+    position: absolute;
+  }
+  h1 {
+    width: 200px;
+    height: 200px;
+    background: #FE5F55;
+    top: -150px;
+	left: 30px;
+    transform: rotate(90deg);
+    position: absolute;
+  }
+</style>
