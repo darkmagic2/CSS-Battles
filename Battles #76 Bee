@@ -1,0 +1,90 @@
+<body>
+  <div class=lb1></div>
+<div class=lb></div>
+<div class=bod>
+  <div class=eye>
+    <div class=stripes>
+      <div class=stripes1>
+        <div class=stripes2>
+          <div class=stripes3>
+          </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  </div>
+</body>
+<style>
+    body {
+    background-color: #998235;
+    max-width: 400px;
+    max-height: 300px;
+  }
+  .lb1 {
+    background: #FFFFFF;
+	width: 80px; 
+    height: 80px;
+    border-radius: 50px 50px 0px 50px;
+    margin-left: 30%;
+    margin-top: 70;
+  }
+  .lb {
+    background: #FFFFFF;
+	width: 80px; 
+    height: 80px;
+    border-radius: 50px 50px 50px 0px;
+    margin-left: 50%;
+    margin-top: -80;
+  }
+  .bod{
+    background: #EFF33C;
+    width: 150px;
+    height: 75px;
+    border-radius: 50px;
+    margin-left: 31%;
+    margin-top: 0px;
+    position: relative;
+  }
+  .eye{
+    background: #191919;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    margin-left: 110px;
+    position: absolute;
+    margin-top: 20px;
+  }
+  .stripes{
+    background: #191919;
+    width: 25px;
+    height: 75px;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -20px;
+  }
+  .stripes1{
+    background: #191919;
+    width: 25px;
+    height: 75px;
+    position: absolute;
+    margin-left: -35px;
+  }
+  .stripes2{
+    background: #191919;
+    width: 25px;
+    height: 35px;
+    position: absolute;
+    margin-left: -35px;
+    border-radius: 90% 0% 0% 0%;
+    top: 2;
+  }  
+  .stripes3{
+    background: #191919;
+    width: 25px;
+    height: 35px;
+    position: absolute;
+    border-radius: 90% 0% 0% 0%;
+    top: 35;
+    transform: scaleY(-1)
+  }
+</style>
